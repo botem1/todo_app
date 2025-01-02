@@ -1,18 +1,18 @@
 * {
     box-sizing: border-box;
     font-family: monospace, monospace;
-    background-color: #b9d4fa;
+    /* background-color: #b9d4fa; */
 }
 
 body {
     margin: 0px;
     padding: 0px;
+    background-color: inherit;
 }
 
 .navbar{
     width: 100%;
     height: 50px;
-    position: absolute;
     background-color: #e9f1fd;
 }
 
@@ -49,4 +49,47 @@ body {
 
 .navbar-element a{
     background-color: inherit;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 100;
+}
+
+.dropdown-content a {
+    /* color: black; */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+} 
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* .tasks{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+} */
+/* .tasks td, th{
+    text-align: center;
+    vertical-align: center;
+    border: 3px dashed black;
+    border-top: none;
+    border-collapse: collapse;
+} */
+
+.edit-symbol{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
 }
