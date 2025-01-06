@@ -14,6 +14,7 @@ body {
     width: 100%;
     height: 50px;
     background-color: #e9f1fd;
+    position: fixed;
 }
 
 #navbar-left{
@@ -75,6 +76,9 @@ body {
     background-color: #f1f1f1;
 }
 
+.edit-symbol{
+    text-decoration: none;
+}
 /* .tasks{
     margin-left: auto;
     margin-right: auto;
@@ -88,8 +92,28 @@ body {
     border-collapse: collapse;
 } */
 
-.edit-symbol{
-    text-decoration: none;
-    color: black;
+.add-button{
+    width: 50px;
+    height: 50px;
     font-size: 30px;
+    text-align: center;
+    line-height: 0px;
+    color: white;
+    background-color: #0d6efd;
+    border: none;
+    border-radius: 50%;
+
+    position: fixed;
+    bottom: 15%;
+    right: 15%;
+
+    transition: all 0.5s ease-in-out;
+}
+
+.add-button:hover{
+    color: rgb(172, 172, 172);
+    width: 60px;
+    height: 60px;
+
+    transform: scale(1.1);
 }

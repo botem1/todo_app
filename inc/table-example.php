@@ -1,4 +1,4 @@
-<table class="tasks table table-hover mx-auto w-75 bg-transparent">
+<table class="table table-hover mx-auto w-50 bg-transparent position-static">
     <thead class="">
         <tr>
             <th>Title</th>
@@ -18,7 +18,7 @@
             <td>School</td>
             <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur enim quam, dictum vitae porta et, tempus vel felis. Orci varius</td>
             <td class="bg-primary-subtle">To-do</td>
-            <td class="align-middle"><a href="#" class="edit-symbol">&#8942;</a></td>
+            <td class="align-middle"><a href="#" class="edit-symbol">&#128465;</a></td>
         </tr>
         <tr>
             <td>Take out the trash</td>
@@ -27,7 +27,7 @@
             <td>Household</td>
             <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur enim quam, dictum vitae porta et, tempus vel felis. Orci varius</td>
             <td class="bg-warning-subtle">In Progress</td>
-            <td class="align-middle"><a href="#" class="edit-symbol">&#8942;</a></td>
+            <td class="align-middle"><a href="#" class="edit-symbol">&#128465;</a></td>
         </tr>
         <tr>
             <td>Feed Luna</td>
@@ -36,7 +36,7 @@
             <td>Household</td>
             <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur enim quam, dictum vitae porta et, tempus vel felis. Orci varius</td>
             <td class="bg-success-subtle">Complete</td>
-            <td class="align-middle"><a href="#" class="edit-symbol">&#8942;</a></td>
+            <td class="align-middle"><a href="#" class="edit-symbol">&#128465;</a></td>
         </tr>
         <tr>
             <td>Reserve a table</td>
@@ -44,8 +44,10 @@
             <td>Dad</td>
             <td>Going out</td>
             <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur enim quam, dictum vitae porta et, tempus vel felis. Orci varius</td>
-            <td class="bg-danger-subtle">Past due</td>
-            <td class="align-middle"><a href="#" class="edit-symbol">&#8942;</a></td>
+            <td class="bg-danger-subtle"></td>
+            <td class="align-middle"><a href="#" class="edit-symbol">&#128465;</a></td>
         </tr>
     </tbody>
 </table>
+
+<button type="button" class="add-button">&#65291;</button>
