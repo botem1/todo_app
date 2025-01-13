@@ -1,0 +1,85 @@
+.edit-symbol{
+
+text-decoration: none;
+
+color: black;
+
+font-size: 30px;
+
+}
+
+#confetti-container {
+
+width: 100%;
+
+height: 100%;
+
+display: none;
+
+}
+
+.confetti {
+
+width: 15px;
+
+height: 15px;
+
+background-color: hsl(var(--hue), 100%, 50%);
+
+position: absolute;
+
+animation: confetti 3s ease-in-out infinite;
+
+transform-origin: left top;
+
+filter: hue-rotate(calc(var(--hue) * 1deg));
+
+animation-delay: var(--delay);
+
+left: var(--start-left);
+
+}
+
+@keyframes confetti {
+
+0% {
+
+transform: rotateZ(15deg) rotateY(0deg) translate(0, 0);
+
+filter: hue-rotate(0deg);
+
+}
+
+25% {
+
+transform: rotateZ(5deg) rotateY(360deg) translate(calc(-10vw + var(--offset-x)), calc(20vh + var(--offset-y)));
+
+filter: hue-rotate(90deg);
+
+}
+
+50% {
+
+transform: rotateZ(15deg) rotateY(720deg) translate(calc(10vw + var(--offset-x)), calc(60vh + var(--offset-y)));
+
+filter: hue-rotate(180deg);
+
+}
+
+75% {
+
+transform: rotateZ(5deg) rotateY(1080deg) translate(calc(-15vw + var(--offset-x)), calc(80vh + var(--offset-y)));
+
+filter: hue-rotate(270deg);
+
+}
+
+100% {
+
+transform: rotateZ(15deg) rotateY(1440deg) translate(calc(15vw + var(--offset-x)), calc(90vh + var(--offset-y)));
+
+filter: hue-rotate(360deg);
+
+}
+
+}

@@ -11,13 +11,17 @@
         </tr>
     </thead>
     <tbody>
-        <tr>
+        <tr id="task1">
             <td>Homework</td>
             <td>12/03/2025</td>
             <td>Jack</td>
             <td>School</td>
             <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur enim quam, dictum vitae porta et, tempus vel felis. Orci varius</td>
-            <td class="bg-primary-subtle">To-do</td>
+            <td class="align-middle">
+            <div class="form-check">
+            <input  type="checkbox" value="" id="status-checkbox1">
+            </div>
+            </td>
             <td class="align-middle"><a href="#" class="edit-symbol">&#128465;</a></td>
         </tr>
         <tr>
@@ -26,7 +30,10 @@
             <td>Mom</td>
             <td>Household</td>
             <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur enim quam, dictum vitae porta et, tempus vel felis. Orci varius</td>
-            <td class="bg-warning-subtle">In Progress</td>
+            <td class="align-middle">
+            <input class="form-check-input" type="checkbox" value="" class="status-checkbox2">
+            </div>
+            </td>
             <td class="align-middle"><a href="#" class="edit-symbol">&#128465;</a></td>
         </tr>
         <tr>
@@ -35,7 +42,9 @@
             <td>Dad</td>
             <td>Household</td>
             <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur enim quam, dictum vitae porta et, tempus vel felis. Orci varius</td>
-            <td class="bg-success-subtle">Complete</td>
+            <td class="align-middle">
+            <input class="form-check-input" type="checkbox" value="" id="status-checkbox3">
+            </td>
             <td class="align-middle"><a href="#" class="edit-symbol">&#128465;</a></td>
         </tr>
         <tr>
@@ -44,10 +53,40 @@
             <td>Dad</td>
             <td>Going out</td>
             <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur enim quam, dictum vitae porta et, tempus vel felis. Orci varius</td>
-            <td class="bg-danger-subtle"></td>
+            <td class="align-middle">
+            <input class="form-check-input" type="checkbox" value="" class="status-checkbox">
+            </td>
             <td class="align-middle"><a href="#" class="edit-symbol">&#128465;</a></td>
         </tr>
     </tbody>
 </table>
 
-<button type="button" class="add-button">&#65291;</button>
+<button type="button" class="add-button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    &#65291;
+</button>
+
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <!-- <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+      </div>
+      <div class="modal-body">
+        <input type="email" class="form-control" id="EnterTaskTitleInput" placeholder="Enter task title...">
+        <span>Choose assignee: </span>
+        <select class="form-control" id="TaskAssigneeSelect">
+        </select>
+        <span>Choose deadline: </span><input type="date" class="form-control" id="DeadlineDatePicker">
+        <span>Choose category: </span>
+        <select class="form-control" id="AssigneeSelect">
+        </select>
+        <textarea class="form-control" id="TaskDescriptionTextarea" rows="10" maxlength="50" placeholder="Enter task description..."></textarea>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary">Add</button>
+      </div>
+    </div>
+  </div>
+</div>
