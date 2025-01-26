@@ -17,8 +17,15 @@
         <div class="navbar">
             <div id="navbar-left">
                 <div class="navbar-element"><a href="index.php">Home</a></div>
-                <div class="navbar-element"><a href="#">About</a></div>
-
+                <div class="navbar-element dropdown"><a href="#">About</a>
+				
+					<div class="dropdown-content">
+						<a href="https://github.com/botem1/todo_app">github</a>
+						<a href="https://en.wikipedia.org/wiki/Antony_(footballer,_born_2000)">inspiration</a>
+						<a href="https://en.wikipedia.org/wiki/Kenan_Y%C4%B1ld%C4%B1z"></a>
+					</div>
+				</div>
+                
                 <div class="navbar-element dropdown">
                     <a href="#" class="dropdown-header">Settings</a>
                     <div class="dropdown-content">
