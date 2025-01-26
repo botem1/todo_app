@@ -16,7 +16,7 @@
     <body>
         <div class="navbar">
             <div id="navbar-left">
-                <div class="navbar-element"><a href="/todo_app">Home</a></div>
+                <div class="navbar-element"><a href="index.php">Home</a></div>
                 <div class="navbar-element"><a href="#">About</a></div>
 
                 <div class="navbar-element dropdown">
