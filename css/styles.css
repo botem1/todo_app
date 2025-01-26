@@ -10,6 +10,7 @@ body {
     background-color: inherit;
 }
 
+/* header */
 .navbar{
     width: 100%;
     height: 50px;
@@ -17,6 +18,7 @@ body {
     position: sticky;
 }
 
+/* left part of the header */
 #navbar-left{
     width: 20%;
     height: 100%;
@@ -29,6 +31,7 @@ body {
     background-color: inherit;
 }
 
+/* right part of the header */
 #navbar-right{
     width: 20%;
     height: 100%;
@@ -41,6 +44,7 @@ body {
     background-color: inherit;
 }
 
+/* each element of the header */
 .navbar-element{
     width: fit-content;
     text-align: center;
@@ -53,7 +57,7 @@ body {
 }
 
 .dropdown-content {
-    display: none;
+    display: none; /* content of the dropdown is invisible by defalut */
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
@@ -68,7 +72,7 @@ body {
 }
 
 .dropdown:hover .dropdown-content{
-    display: block;
+    display: block; /* make the dropdown visible when hovered */
 } 
 
 .dropdown-content a:hover {

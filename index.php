@@ -1,6 +1,6 @@
 <?php require_once 'src/header.php'?>
 
-<table class="table table-hover mx-auto w-25 bg-transparent position-static">
+<table class="table table-hover mx-auto w-50 bg-transparent position-static">
     <thead class="">
         <tr>
         <th>Title</th>

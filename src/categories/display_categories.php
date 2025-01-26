@@ -18,7 +18,7 @@
         echo '</td>';
 
         echo '<td class="align-middle">
-        <button class="trash-button-category">
+        <button class="trash-button trash-button-category">
         <a href="#" class="edit-symbol">&#128465;</a>
         </button>
         </td>';
