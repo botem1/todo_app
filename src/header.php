@@ -29,7 +29,7 @@
 
             </div>
             <div id="navbar-right">
-                <div class="navbar-element dropdown"><a href="#">Donate</a></div>
+                <div class="navbar-element dropdown"><a href="https://paypal.me/informaticadonatie?country.x=NL&locale.x=en_US">Donate</a></div>
 
                 <div class="navbar-element dropdown">
                     <a href="#" class="dropdown-header">Feeling lucky?</a>
