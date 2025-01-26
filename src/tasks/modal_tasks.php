@@ -31,6 +31,6 @@
   </div>
 </div>
 
-<button type="button" class="add-task-button" data-bs-toggle="modal" data-bs-target="#modal-add-task">
+<button type="button" class="add-button" data-bs-toggle="modal" data-bs-target="#modal-add-task">
     &#65291;
 </button>

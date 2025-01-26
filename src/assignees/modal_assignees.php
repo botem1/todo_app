@@ -16,6 +16,6 @@
   </div>
 </div>
 
-<button type="button" class="add-task-button" data-bs-toggle="modal" data-bs-target="#modal-add-assignee">
+<button type="button" class="add-button" data-bs-toggle="modal" data-bs-target="#modal-add-assignee">
     &#65291;
 </button>
